@@ -1,0 +1,46 @@
+html {
+  padding: 20px;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.inputs {
+  background-color: #f7f5f5;
+  padding: 30px;
+}
+
+.inputs div {
+  margin-bottom: 25px;
+}
+
+input,
+select {
+  margin: 5px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+input::placeholder {
+  font-size: 15px;
+}
+
+button {
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 5px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.balance-wrapper {
+  width: 200px;
+}
+
+.balance-wrapper h1 {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+}
